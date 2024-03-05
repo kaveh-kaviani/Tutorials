@@ -2,7 +2,7 @@
 
 <center>
 
-<font size="6" face="roboto">Single Board Computers Tutorials and Troubleshooting</font>
+<font size="6" face="roboto">Orange Pi series Tutorials and Troubleshooting</font>
 
 </center>
 
@@ -18,9 +18,9 @@
 
 # Introduction:
 
-Welcome to the Single Board Computers Tutorials and Troubleshooting guide! This collection of tutorials aims to assist users of the versatile Single Board Computers (SBCs) in various applications, from electronics and home labs to edge computing and enterprise development.
+Welcome to the Orange Pi Tutorials and Troubleshooting guide! This collection of tutorials aims to assist users of the versatile Orange Pi single-board computers (SBCs) in various applications, from electronics and home labs to edge computing and enterprise development.
 
-This folder contains tutorials for the Single Board Computers which have a vast majority of usage from Electronic, Home-Lab, Edge Computing, Artificial Intelligence (AI), Cloud Computing, AR/VR, Intelligent Security, Smart Home to Small Development and Enterprises.
+This folder contains tutorials for the Orange Pi series Single Board Computers which have a vast majority of usage from Electronic, Home-Lab, Edge Computing, Artificial Intelligence (AI), Cloud Computing, AR/VR, Intelligent Security, Smart Home to Small Development and Enterprises.
 
 # Table of Contents:
 
@@ -35,7 +35,7 @@ This folder contains tutorials for the Single Board Computers which have a vast 
 
 # Tutorials
 
-- [Orange Pi](/content/sbc/orange-pi/index.md)
+- [Orange Pi 5](/content/sbc/orange-pi/orange-pi-5/README.md)
   
 <br>
   

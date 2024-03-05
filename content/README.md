@@ -41,4 +41,4 @@ This folder contains tutorials for:
 
 # [Directories](#directories)
 
-- [Single Board Computers (SBCs)](/content/sbc/index.md)
+- [Single Board Computers (SBCs)](/content/sbc/README.md)

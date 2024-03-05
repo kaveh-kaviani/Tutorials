@@ -45,7 +45,7 @@
 
 # [Introduction](#introduction)
 
-<font color="red" size="5" face="roboto"> **This tutorial made before Orange Pi release model 5B and 5 Pro and due to the changes directly regard to the SPI Flash and eMMC in these models, methods in this tutorial will not work on Orange Pi 5 [for more information](/content/sbc/orange-pi/orange-pi-5/index.md). Just for Orange Pi 5B and 5 Pro only those who have eMMC storage and no SPI Flash you may need to skip the first stage and go directly to the [second stage](#stage-2-preparing-the-emmc).** </font>
+<font color="red" size="5" face="roboto"> **This tutorial made before Orange Pi release model 5B and 5 Pro and due to the changes directly regard to the SPI Flash and eMMC in these models, methods in this tutorial will not work on Orange Pi 5 [for more information](/content/sbc/orange-pi/orange-pi-5/README.md). Just for Orange Pi 5B and 5 Pro only those who have eMMC storage and no SPI Flash you may need to skip the first stage and go directly to the [second stage](#stage-2-preparing-the-emmc).** </font>
 
 <font color="white" size="5" face="roboto"> <center> **This tutorial was tested on Orange Pi 5 Plus successfully.** </center> </font>
 
