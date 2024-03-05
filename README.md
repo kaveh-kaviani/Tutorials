@@ -2,7 +2,7 @@
 
 <center>
 
-<font size="6" face="roboto">Tutorials</font>
+# <font size="6" face="roboto">**Tutorials**</font>
 
 </center>
 
@@ -31,6 +31,7 @@ This folder contains tutorials for:
 
 # Table of Contents:
 
+- [**Tutorials**](#tutorials)
 - [Introduction:](#introduction)
 - [Table of Contents:](#table-of-contents)
 - [Directories](#directories)
