@@ -1,5 +1,3 @@
-# tutorials
-A main repository for all kind of technical tutorials. 
 <br>
 
 <center>
@@ -33,7 +31,6 @@ This folder contains tutorials for:
 
 # Table of Contents:
 
-- [tutorials](#tutorials)
 - [Introduction:](#introduction)
 - [Table of Contents:](#table-of-contents)
 - [Directories](#directories)
