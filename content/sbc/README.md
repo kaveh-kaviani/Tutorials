@@ -1,12 +1,8 @@
 <br>
 
-<center>
-
-<font size="6" face="roboto">Single Board Computers Tutorials and Troubleshooting</font>
-
-</center>
-
 <div align="center">
+
+<span style="color: white; font-size: 30px; font-family: roboto;"> **Single Board Computers Tutorials and Troubleshooting** </span>
 
 ![Badge](https://badgen.net/github/license/kaveh-kaviani/tutorials?color=red)
 ![Badge](https://badgen.net/github/forks/kaveh-kaviani/tutorials?icon=git&color=blue)
@@ -43,11 +39,11 @@ This folder contains tutorials for the Single Board Computers which have a vast 
 
 <br>
 
-<center>
+<div align="center">
 
 **Note**: The tutorials are tested on Debian 12 (Bookworm) and may not work on other versions of Ubuntu or other Linux distributions.
 
-</center>
+</div>
 
 <br>
 

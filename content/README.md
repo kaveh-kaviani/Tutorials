@@ -1,12 +1,8 @@
 <br>
 
-<center>
-
-<font size="6" face="roboto">Tutorials</font>
-
-</center>
-
 <div align="center">
+
+<span style="color: White; font-size: 45px;"> **Tutorials** </span>
 
 ![Badge](https://badgen.net/github/license/kaveh-kaviani/tutorials?color=red)
 ![Badge](https://badgen.net/github/forks/kaveh-kaviani/tutorials?icon=git&color=blue)

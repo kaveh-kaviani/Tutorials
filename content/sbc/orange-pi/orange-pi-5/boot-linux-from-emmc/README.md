@@ -1,16 +1,8 @@
-<center>
+<div align="center">
 
 ![logo](/assets/images/logo.svg)
 
-</center>
-
-<center> 
-
-# **Configuring Orange Pi 5 series: Boot Linux from eMMC !!!**
-
-</center>
-
-<div align="center">
+<span style="color: white; font-size: 30px; font-family: roboto;"> **Configuring Orange Pi 5 series: Boot Linux from eMMC !!!** </span>
 
 ![Badge](https://badgen.net/github/license/kaveh-kaviani/tutorials?color=red)
 ![Badge](https://badgen.net/github/forks/kaveh-kaviani/tutorials?icon=git&color=blue)
@@ -20,12 +12,10 @@
 
 </div>
 
-
 <br>
 
 # Table of Contents
 
-- [**Configuring Orange Pi 5 series: Boot Linux from eMMC !!!**](#configuring-orange-pi-5-series-boot-linux-from-emmc-)
 - [Table of Contents](#table-of-contents)
 - [Introduction](#introduction)
 - [Prerequisites](#prerequisites)
@@ -45,9 +35,13 @@
 
 # [Introduction](#introduction)
 
-<font color="red" size="5" face="roboto"> **This tutorial made before Orange Pi release model 5B and 5 Pro and due to the changes directly regard to the SPI Flash and eMMC in these models, methods in this tutorial will not work on Orange Pi 5 [for more information](/content/sbc/orange-pi/orange-pi-5/README.md). Just for Orange Pi 5B and 5 Pro only those who have eMMC storage and no SPI Flash you may need to skip the first stage and go directly to the [second stage](#stage-2-preparing-the-emmc).** </font>
+<span style="color: red; font-size: 26px; font-family: roboto;"> **This tutorial made before Orange Pi release model 5B and 5 Pro and due to the changes directly regard to the SPI Flash and eMMC in these models, methods in this tutorial will not work on Orange Pi 5 [for more information](/content/sbc/orange-pi/orange-pi-5/README.md). Just for Orange Pi 5B and 5 Pro only those who have eMMC storage and no SPI Flash if you feel confident, you can skip the first stage and go directly to the [second stage](#stage-2-preparing-the-emmc).** </span>
 
-<font color="white" size="5" face="roboto"> <center> **This tutorial was tested on Orange Pi 5 Plus successfully.** </center> </font>
+<div align="center"> 
+
+<span style="color: white; font-size: 20px; font-family: roboto;"> **This tutorial was tested on Orange Pi 5 Plus successfully.** </span>
+
+ </div>
 
 The Orange Pi 5 series offers several methods to boot from the eMMC. However, not all of these methods are reliable due to the role of the SPI Flash memory, which is responsible for selecting between the SD Card, eMMC, and NVMe as the boot storage.
 
@@ -71,11 +65,9 @@ For this tutorial, you will need the following:
 
 <div align="center">
 
-<font color="red"> **Please Keep in mind, whenever you decied to change the OS on Orange Pi 5 series, you need to delete all the SPI Flash's partitions and update the bootloader** </font>
+<span style="color: red;"> **Please Keep in mind, whenever you decide to change the OS on Orange Pi 5 series, you need to delete all the SPI Flash's partitions and update the bootloader** </span>
 
 </div>
-
-_________________
 
 # [Stages](#stages)
 
@@ -90,7 +82,7 @@ The first stage involves flushing the SPI Flash, which is responsible for select
 To flush the SPI Flash, please follow these steps:
 
 1. **Power off the Orange Pi 5 series board** by disconnecting the power supply.
-2. **Install the eMMC module** into the eMMC slot on the Orange Pi 5 series board.(<font color="red"> **please refer to the official documentation of the Orange Pi 5 series board.** </font>)
+2. **Install the eMMC module** into the eMMC slot on the Orange Pi 5 series board.(<span style="color: red;"> **please refer to the official documentation of the Orange Pi 5 series board.** </span>)
 3. **Insert the SD Card** with the bootable Linux image into the SD Card slot.
 4. **Connect the power supply** to the Orange Pi 5 series board.
 5. **Power on the Orange Pi 5 series board** by connecting the power supply.
@@ -144,7 +136,7 @@ For the Command: (you can use ? for help) follow the steps below: (e.g., type `?
 
     type `2` and press `Enter` to see the available commands
 
-    <font color="red"> **Note: If you have more than 2 partitions, you need to delete all of them.** </font>
+    <span style="color: red;"> **Note: If you have more than 2 partitions, you need to delete all of them.** </span>
 
 3. **Write table to disk and exit:**
 
@@ -152,7 +144,7 @@ For the Command: (you can use ? for help) follow the steps below: (e.g., type `?
 
     type `y` and press `Enter` to see the available commands
 
-    <font color="red"> **Note: Sometimes you need to repeat confirmation 2 times by asking correct this problem? (Y/N):** </font>
+    <span style="color: red;"> **Note: Sometimes you need to repeat confirmation 2 times by asking correct this problem? (Y/N):** </span>
 
 **The SPI Flash has been flushed successfully.**
 
@@ -178,9 +170,9 @@ sudo fdisk -l
 
 <div align="center">
 
-<font color="red"> **Please note that if you don't see the eMMC, you need to check the connection of the eMMC module.** </font>
+<span style="color: red;"> **Please note that if you don't see the eMMC, you need to check the connection of the eMMC module.** </span>
 
-<font color="red"> **If your eMMC module has no partition, you can skip this stage and move to the next stage [stage 2.1](#stage-2.1-emmc-sectors-alignment).** </font>
+<span style="color: red;"> **If your eMMC module has no partition, you can skip this stage and move to the next stage [stage 2.1](#stage-2.1-emmc-sectors-alignment).** </span>
 
 </div>
 
@@ -212,7 +204,7 @@ For the Command: (you can use ? for help) follow the steps below: (e.g., type `?
 
     type `2` and press `Enter` to see the available commands
 
-    <font color="red"> **Note: If you have more than 2 partitions, you need to delete all of them.** </font>
+    <span style="color: red;"> **Note: If you have more than 2 partitions, you need to delete all of them.** </span>
 
 3. **Write table to disk and exit:**
 
@@ -220,7 +212,7 @@ For the Command: (you can use ? for help) follow the steps below: (e.g., type `?
 
     type `y` and press `Enter` to see the available commands
 
-    <font color="red"> **Note: Sometimes you need to repeat confirmation 2 times by asking correct this problem? (Y/N):** </font>
+    <span style="color: red;"> **Note: Sometimes you need to repeat confirmation 2 times by asking correct this problem? (Y/N):** </span>
 
 <br>
 
@@ -230,7 +222,7 @@ The eMMC sectors alignment is a crucial step that ensures the eMMC is properly a
 
 <div align="center">
 
-<font color="red"> **Note: You may think that the eMMC is already aligned, specially in the example below, but keep in mind the eMMC in the example below it has boot partition and it has been aligned through the burned image on the eMMC process automatically.** </font>
+<span style="color: red;"> **Note: You may think that the eMMC is already aligned, specially in the example below, but keep in mind the eMMC in the example below it has boot partition and it has been aligned through the burned image on the eMMC process automatically.** </span>
 
 </div>
 
@@ -248,7 +240,7 @@ For the Command: (you can use ? for help) follow the steps below: (e.g., type `?
 
     type `p` and press `Enter` to see the available commands
 
-    **Note: If in the descriptions above the Partitions table for the Main partition table begins at sector 2 and ends at 33 and First usable sector is any number <font color="red"> **except** </font> the number after the end of the Main partition's sector in this case 34 for example 2048: then you need to reformat the sectors first before writing the partitions table on the Disk and for that please follow the steps below and if the First usable sector is the number after the end of the Main partition's sector in this case 34, just skip this steps and jump to stage [stage 3](#write-table-to-disk-and-exit).**
+    **Note: If in the descriptions above the Partitions table for the Main partition table begins at sector 2 and ends at 33 and First usable sector is any number <span style="color: red;"> **except** </span> the number after the end of the Main partition's sector in this case 34 for example 2048: then you need to reformat the sectors first before writing the partitions table on the Disk and for that please follow the steps below and if the First usable sector is the number after the end of the Main partition's sector in this case 34, just skip this steps and jump to stage [stage 3](#write-table-to-disk-and-exit).**
 
     <br>
 
@@ -274,7 +266,7 @@ For the Command: (you can use ? for help) follow the steps below: (e.g., type `?
 
     type `y` and press `Enter` to see the available commands
 
-    <font color="red"> **Note: Sometimes you need to repeat confirmation 2 times by asking correct this problem? (Y/N):** </font>
+    <span style="color: red;"> **Note: Sometimes you need to repeat confirmation 2 times by asking correct this problem? (Y/N):** </span>
 
 
 ## [Stage 3: Update the Bootloader](#stage-3-update-the-bootloader)
@@ -311,10 +303,9 @@ sudo orangepi-config
 
     <br>
 
-    <font color="red"> **Note: If you see an error, that means your SPI Flash still has some partitions in it and it does not have enough space for creating another one** </font>
+    <span style="color: red;"> **Note: If you see an error, that means your SPI Flash still has some partitions in it and it does not have enough space for creating another one** </span>
 
     **Note: It will take a few minutes, then you will see Done at the left bottom corner of your screen and you will back to the system settings menu.**
-
 
 <br>
 
@@ -324,7 +315,7 @@ sudo orangepi-config
     
     <br>
 
-    <font color="red"> **and reboot after that and please Do not pull out the SD card still you need to Burn the Linux image on to the eMMC Disk.** </font>
+    <span style="color: red;"> **and reboot after that and please Do not pull out the SD card still you need to Burn the Linux image on to the eMMC Disk.** </span>
     
     - **Do not worry if your linux machine did not boot again, you can repeat these steps as much as your SD card and eMMC Disk handle. (that depends to the quality of your SD card and eMMC Disk)**
 
@@ -338,7 +329,7 @@ This stage involves burning the Linux image on to the eMMC Disk. For this stage,
 
 1. **Download the official Linux image** from the [official website](http://www.orangepi.org/html/serviceAndSupport/index.html).
    
-    <font color="red"> **Note: It is important for the image to contains all the boot configurations and Drivers for you Orange Pi model** </font>
+    <span style="color: red;"> **Note: It is important for the image to contains all the boot configurations and Drivers for you Orange Pi model** </span>
 
 <br>
 
@@ -381,11 +372,12 @@ This stage involves burning the Linux image on to the eMMC Disk. For this stage,
 7. **Using dd command to burn the Linux image on to the eMMC disk**:
 
     **Note: In the dd command below, for if= you need just to type the name of the image with the .img extension and it is better if you rename the image file to a short name for example debian.img, for the of= just type the path of the eMMC disk which you retrieve on last step (6) for example: of=/dev/mmcblk0**
+
     ```bash
     sudo dd bs=1M if=debian.img of=/dev/mmcblk0 status=progress
     ```
 
-    <font color="red"> **Note: This process will take a few minutes, please be patient and do not interrupt the process.** </font>
+    <span style="color: red;"> **Note: This process will take a few minutes, please be patient and do not interrupt the process.** </span>
 
 <br>
 
