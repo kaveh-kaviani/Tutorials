@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<span style="color: White; font-size: 45px;"> **Tutorials** </span>
+# **Tutorials**
 
 ![Badge](https://badgen.net/github/license/kaveh-kaviani/tutorials?color=red)
 ![Badge](https://badgen.net/github/forks/kaveh-kaviani/tutorials?icon=git&color=blue)
@@ -27,6 +27,7 @@ This folder contains tutorials for:
 
 # Table of Contents:
 
+- [**Tutorials**](#tutorials)
 - [Introduction:](#introduction)
 - [Table of Contents:](#table-of-contents)
 - [Directories](#directories)

@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<span style="color: white; font-size: 30px; font-family: roboto;"> **Single Board Computers Tutorials and Troubleshooting** </span>
+# **Single Board Computers Tutorials and Troubleshooting**
 
 ![Badge](https://badgen.net/github/license/kaveh-kaviani/tutorials?color=red)
 ![Badge](https://badgen.net/github/forks/kaveh-kaviani/tutorials?icon=git&color=blue)
@@ -20,6 +20,7 @@ This folder contains tutorials for the Single Board Computers which have a vast 
 
 # Table of Contents:
 
+- [**Single Board Computers Tutorials and Troubleshooting**](#single-board-computers-tutorials-and-troubleshooting)
 - [Introduction:](#introduction)
 - [Table of Contents:](#table-of-contents)
 - [Tutorials](#tutorials)

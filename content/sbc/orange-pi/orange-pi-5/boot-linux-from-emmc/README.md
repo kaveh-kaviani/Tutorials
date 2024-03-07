@@ -2,7 +2,7 @@
 
 ![logo](/assets/images/logo.svg)
 
-<span style="color: white; font-size: 30px; font-family: roboto;"> **Configuring Orange Pi 5 series: Boot Linux from eMMC !!!** </span>
+# **Configuring Orange Pi 5 series: Boot Linux from eMMC !!!**
 
 ![Badge](https://badgen.net/github/license/kaveh-kaviani/tutorials?color=red)
 ![Badge](https://badgen.net/github/forks/kaveh-kaviani/tutorials?icon=git&color=blue)
@@ -16,6 +16,7 @@
 
 # Table of Contents
 
+- [**Configuring Orange Pi 5 series: Boot Linux from eMMC !!!**](#configuring-orange-pi-5-series-boot-linux-from-emmc-)
 - [Table of Contents](#table-of-contents)
 - [Introduction](#introduction)
 - [Prerequisites](#prerequisites)
@@ -39,7 +40,7 @@
 
 <div align="center"> 
 
-<span style="color: white; font-size: 20px; font-family: roboto;"> **This tutorial was tested on Orange Pi 5 Plus successfully.** </span>
+**(This tutorial was tested on Orange Pi 5 Plus successfully)**
 
  </div>
 

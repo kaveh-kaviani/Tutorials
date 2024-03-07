@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<span style="color: white; font-size: 30px; font-family: roboto;"> **Orange Pi series Tutorials and Troubleshooting** </span>
+# **Orange Pi series Tutorials and Troubleshooting**
 
 ![Badge](https://badgen.net/github/license/kaveh-kaviani/tutorials?color=red)
 ![Badge](https://badgen.net/github/forks/kaveh-kaviani/tutorials?icon=git&color=blue)
@@ -20,6 +20,7 @@ This folder contains tutorials for the Orange Pi series Single Board Computers w
 
 # Table of Contents:
 
+- [**Orange Pi series Tutorials and Troubleshooting**](#orange-pi-series-tutorials-and-troubleshooting)
 - [Introduction:](#introduction)
 - [Table of Contents:](#table-of-contents)
 - [Tutorials](#tutorials)
